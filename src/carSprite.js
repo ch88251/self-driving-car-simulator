@@ -26,6 +26,8 @@ const CarSprite = {
         this.ready = true;
         resolve();
       };
+      img.onerror = reject;
+      img.src = CAR_IMAGE_DATA;
     });
   }
 
