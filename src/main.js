@@ -5,5 +5,9 @@
 (async function main() {
   const canvas = document.getElementById("sim");
   const ctx = canvas.getContext("2d");
+  const options = { paused: false, speed: 1, sensors: "selected" };
+
+  await CarSprite.load();
+  document.getElementById("loading").remove();
 })();
 
