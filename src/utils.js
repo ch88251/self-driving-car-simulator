@@ -1,7 +1,7 @@
 /**
  * Small math, geometry, and color helpers shared by the rest of the simulation.
  */
-const TAU = Math.PI * 2;
+//const TAU = Math.PI * 2;
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
